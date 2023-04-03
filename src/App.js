@@ -1,18 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import {Route, Routes} from "react-router-dom"
+import Navbar from './components/Navbar';
+import About from "./components/About";
+import PageNotFound from "./components/PageNotFound";
+
+
+import './styles/App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hi <code>src/App.js</code> and save to reload.
-        </p>
+      <>
+      {/* <Navbar /> */}
+      <div className="container">
+          <Routes>
+              <Route path="/" element={<About/>}/>
+              <Route path="/about" element={<About/>}/>
+              <Route path="*" element={<PageNotFound />} />
+          </Routes>
+      </div>
 
-      </header>
-    </div>
-  );
+      </>
+      
+  )
 }
 
 export default App;
