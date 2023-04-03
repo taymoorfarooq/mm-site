@@ -42,3 +42,16 @@
   #rightmenu a {
     margin-top: 6px;
   }
+
+  @media screen and (max-width: 500px) {
+
+    #rightmenu a {
+        display: none
+    }
+
+    #leftmenu a {
+        font-size: 20px;
+        margin-top: 3px;
+        
+    }
+}

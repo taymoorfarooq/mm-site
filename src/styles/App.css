@@ -1,8 +1,8 @@
 body {
   background-color: #000000;
-  animation: fadeInAnimation ease 2s;
+  /* animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
 }
 
 html {
@@ -10,12 +10,59 @@ html {
 }
 
 
-@keyframes fadeInAnimation {
+/* @keyframes fadeInAnimation {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
   }
+} */
+
+.splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  z-index: 200;
+  color: black;
+  font-family: Helvetica;
+  text-align: center;
+  line-height: 100vh;
 }
 
+.splash.display-none {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  z-index: -10;
+  color: black;
+  text-align: center;
+  line-height: 100vh;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+@-webkit-keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s ease-in forwards;
+          animation: fadeIn 1s ease-in forwards;
+}
