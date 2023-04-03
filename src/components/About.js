@@ -4,7 +4,17 @@ export default function About() {
 
   return(
     <div>
-        <p>I'm Cool! I AM MUSTAFA</p>
+        <div id='aboutsection'>
+            <p>About</p>
+        </div>
+
+        <div id='experiencesection'>
+            <p>Experience</p>
+        </div>
+
+        <div id='contactsection'>
+            <p>Contact</p>
+        </div>
     </div>
   )
 

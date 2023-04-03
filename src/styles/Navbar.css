@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .nav {
+    position: sticky;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    top: 0;
+    height: 70px;
+    background: rgba(227, 227, 227, 1);
+  }
+  
+  .nav ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    gap: 25px;
+  }
+
+  .nav a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+  }
+
+  #leftmenu a{
+    font-family: Garamond;
+    font-size: 25px;
+  }
+
+  #rightmenu a {
+    margin-top: 6px;
+  }
