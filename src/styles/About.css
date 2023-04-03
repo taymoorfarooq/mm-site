@@ -31,3 +31,10 @@ p {
     padding-top: 150px;
     margin-bottom: 500px;
 }
+
+#contactp1 a{
+    font-family: Helvetica;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
