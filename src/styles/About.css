@@ -5,10 +5,16 @@
 
 p {
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     font-family: Garamond;
-    margin-left: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
 
+}
+
+#aboutp1 {
+    font-family: Helvetica;
+    font-size: 20px;
 }
 
 #aboutsection {
@@ -23,5 +29,5 @@ p {
 
 #contactsection {
     padding-top: 150px;
-    margin-bottom: 900px;
+    margin-bottom: 500px;
 }

@@ -5,15 +5,16 @@ export default function About() {
   return(
     <div>
         <div id='aboutsection'>
-            <p>About</p>
+            <p>ABOUT</p>
+            <p id='aboutp1'>I am currently a sophomore studying finance at Cornell. My past work experience includes interning with KPMG within their Deal Advisory division, as well as starting my own nonprofit. I am interested in pursuing a career within the financial services industry.</p>
         </div>
 
         <div id='experiencesection'>
-            <p>Experience</p>
+            <p>EXPERIENCE</p>
         </div>
 
         <div id='contactsection'>
-            <p>Contact</p>
+            <p>CONTACT</p>
         </div>
     </div>
   )
