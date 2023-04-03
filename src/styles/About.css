@@ -29,12 +29,19 @@ p {
 
 #contactsection {
     padding-top: 150px;
-    margin-bottom: 500px;
+    margin-bottom: 400px;
+    
 }
 
-#contactp1 a{
+#contactp1 a {
     font-family: Helvetica;
     color: white;
     text-decoration: none;
     font-size: 20px;
+}
+
+#cornellgif {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

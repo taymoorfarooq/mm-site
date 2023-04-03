@@ -4,6 +4,7 @@ export default function About() {
 
   return(
     <div>
+        <img id='cornellgif' src='cornell.gif'></img>
         <div id='aboutsection'>
             <p>ABOUT</p>
             <p id='aboutp1'>I am currently a sophomore studying finance at Cornell. 
